@@ -1,0 +1,1123 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-DBManager v2.70\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-05 23:56+0100\n"
+"PO-Revision-Date: 2014-08-31 04:40:07+0000\n"
+"Last-Translator: Tunghsiao Liu <t@sparanoid.com>\n"
+"Language-Team: Sparanoid <t@sparanoid.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=1;\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: database-backup.php:11
+#: database-backup.php:183
+#: database-manage.php:26
+#: database-manage.php:135
+#: wp-dbmanager.php:67
+#: wp-dbmanager.php:238
+#: wp-dbmanager.php:616
+#: wp-dbmanager.php:646
+#: wp-dbmanager.php:671
+#, php-format
+#@ wp-dbmanager
+msgid "%s @ %s"
+msgstr "%s / %s"
+
+#: database-backup.php:26
+#: database-backup.php:202
+#@ wp-dbmanager
+msgid "Backup"
+msgstr "备份"
+
+#: database-backup.php:53
+#, php-format
+#@ wp-dbmanager
+msgid "Database Failed To Backup On '%s'. Backup Folder Not Writable."
+msgstr "数据库「%s」备份失败，备份文件夹无法写入。"
+
+#: database-backup.php:56
+#, php-format
+#@ wp-dbmanager
+msgid "Database Failed To Backup On '%s'. Backup File Size Is 0KB."
+msgstr "数据库「%s」备份失败，备份文件大小为 0KB。"
+
+#: database-backup.php:58
+#, php-format
+#@ wp-dbmanager
+msgid "Database Failed To Backup On '%s'. Invalid Backup File Path."
+msgstr "数据库「%s」备份失败，无效的备份文件路径。"
+
+#: database-backup.php:60
+#, php-format
+#@ wp-dbmanager
+msgid "Database Failed To Backup On '%s'."
+msgstr "数据库「%s」备份失败。"
+
+#: database-backup.php:62
+#, php-format
+#@ wp-dbmanager
+msgid "Database Backed Up Successfully On '%s'."
+msgstr "数据库「%s」备份成功。"
+
+#: database-backup.php:80
+#: database-backup.php:164
+#@ wp-dbmanager
+msgid "Backup Database"
+msgstr "备份数据库"
+
+#: database-backup.php:81
+#@ wp-dbmanager
+msgid "Checking Backup Status"
+msgstr "正在检查备份状态"
+
+#: database-backup.php:83
+#@ wp-dbmanager
+msgid "Checking Backup Folder"
+msgstr "正在检查备份文件夹"
+
+#: database-backup.php:86
+#@ wp-dbmanager
+msgid "Backup folder exists"
+msgstr "备份文件夹确认存在"
+
+#: database-backup.php:89
+#, php-format
+#@ wp-dbmanager
+msgid "Backup folder does NOT exist. Please create 'backup-db' folder in '%s' folder and CHMOD it to '777' or change the location of the backup folder under DB Option."
+msgstr "备份文件夹不存在，请在「%s」目录中创建名为「backup-db」的文件夹，并使用 CHMOD 命令将属性设为「777」，或者在数据库选项中修改备份文件夹。"
+
+#: database-backup.php:92
+#@ wp-dbmanager
+msgid "Backup folder is writable"
+msgstr "备份文件夹可写入"
+
+#: database-backup.php:95
+#@ wp-dbmanager
+msgid "Backup folder is NOT writable. Please CHMOD it to '777'."
+msgstr "备份文件夹不可写入，请使用 CHMOD 命令将属性设为「777」。"
+
+#: database-backup.php:102
+#: database-backup.php:106
+#@ wp-dbmanager
+msgid "Checking MYSQL Dump Path"
+msgstr "正在检查 MYSQL Dump 路径"
+
+#: database-backup.php:103
+#@ wp-dbmanager
+msgid "MYSQL dump path exists."
+msgstr "MYSQL dump 路径确认存在"
+
+#: database-backup.php:107
+#@ wp-dbmanager
+msgid "MYSQL dump path does NOT exist. Please check your mysqldump path under DB Options. If uncertain, contact your server administrator."
+msgstr "MYSQL dump 路径不存在，请在数据库选项中检查您的 mysqldump 路径，如果不确定，请联系您的服务器管理员。"
+
+#: database-backup.php:114
+#: database-backup.php:118
+#@ wp-dbmanager
+msgid "Checking MYSQL Path"
+msgstr "正在检查 MYSQL 路径"
+
+#: database-backup.php:115
+#@ wp-dbmanager
+msgid "MYSQL path exists."
+msgstr "MYSQL 路径确认存在"
+
+#: database-backup.php:119
+#@ wp-dbmanager
+msgid "MYSQL path does NOT exist. Please check your mysql path under DB Options. If uncertain, contact your server administrator."
+msgstr "MYSQL 路径不存在，请在数据库选项中检查您的 mysql 路径，如果您不确定，请联系服务器管理员。"
+
+#: database-backup.php:124
+#@ wp-dbmanager
+msgid "Checking PHP Functions"
+msgstr "正在检查 PHP 功能"
+
+#: database-backup.php:124
+#@ wp-dbmanager
+msgid "and"
+msgstr "以及"
+
+#: database-backup.php:127
+#: database-backup.php:134
+#: database-backup.php:140
+#@ wp-dbmanager
+msgid "enabled"
+msgstr "已开启"
+
+#: database-backup.php:130
+#: database-backup.php:136
+#: database-backup.php:142
+#@ wp-dbmanager
+msgid "disabled"
+msgstr "已禁用"
+
+#: database-backup.php:150
+#@ wp-dbmanager
+msgid "Excellent. You Are Good To Go."
+msgstr "检测正常，一切准备就绪"
+
+#: database-backup.php:152
+#@ wp-dbmanager
+msgid "I'm sorry, your server administrator has disabled passthru(), system() and exec(), thus you cannot use this backup script. You may consider using the default WordPress database backup script instead."
+msgstr "非常抱歉，您的服务器管理员已禁用了 passthru()、system() 以及 exec()，因此您不能使用备份脚本，您可以考虑使用 WordPress 默认的数据库备份脚本。"
+
+#: database-backup.php:154
+#@ wp-dbmanager
+msgid "Please Rectify The Error Highlighted In Red Before Proceeding On."
+msgstr "请在执行之前请检查红色高亮处的错误。"
+
+#: database-backup.php:158
+#@ wp-dbmanager
+msgid "Note: The checking of backup status is still undergoing testing, it may not be accurate."
+msgstr "注意：备份状态检查目前仍属于测试阶段，可能并不准确。"
+
+#: database-backup.php:169
+#@ wp-dbmanager
+msgid "Option"
+msgstr "选项"
+
+#: database-backup.php:170
+#: database-manager.php:32
+#@ wp-dbmanager
+msgid "Value"
+msgstr "值"
+
+#: database-backup.php:174
+#@ wp-dbmanager
+msgid "Database Name:"
+msgstr "数据库名称："
+
+#: database-backup.php:178
+#@ wp-dbmanager
+msgid "Database Backup To:"
+msgstr "数据库备份到："
+
+#: database-backup.php:182
+#@ wp-dbmanager
+msgid "Database Backup Date:"
+msgstr "数据库备份日期："
+
+#: database-backup.php:186
+#@ wp-dbmanager
+msgid "Database Backup File Name:"
+msgstr "数据库备份名称："
+
+#: database-backup.php:190
+#@ wp-dbmanager
+msgid "Database Backup Type:"
+msgstr "数据库备份类型："
+
+#: database-backup.php:191
+#@ wp-dbmanager
+msgid "Full (Structure and Data)"
+msgstr "完整（结构及数据）"
+
+#: database-backup.php:194
+#@ wp-dbmanager
+msgid "MYSQL Dump Location:"
+msgstr "MYSQL Dump 位置："
+
+#: database-backup.php:198
+#@ wp-dbmanager
+msgid "GZIP Database Backup File?"
+msgstr "使用 GZIP 压缩数据库备份？"
+
+#: database-backup.php:199
+#: database-optimize.php:73
+#: database-repair.php:74
+#: wp-dbmanager.php:634
+#: wp-dbmanager.php:730
+#@ wp-dbmanager
+msgid "Yes"
+msgstr "是"
+
+#: database-backup.php:199
+#: database-optimize.php:73
+#: database-repair.php:74
+#: wp-dbmanager.php:633
+#: wp-dbmanager.php:731
+#@ wp-dbmanager
+msgid "No"
+msgstr "否"
+
+#: database-backup.php:202
+#: database-empty.php:101
+#: database-manage.php:174
+#: database-optimize.php:80
+#: database-repair.php:78
+#: database-run.php:82
+#@ wp-dbmanager
+msgid "Cancel"
+msgstr "取消"
+
+#: database-empty.php:27
+#: database-empty.php:98
+#@ wp-dbmanager
+msgid "Empty/Drop"
+msgstr "清空／删除"
+
+#: database-empty.php:40
+#@ wp-dbmanager
+msgid "No Tables Selected."
+msgstr "未选择数据表。"
+
+#: database-empty.php:46
+#, php-format
+#@ wp-dbmanager
+msgid "Table '%s' Emptied"
+msgstr "数据表「%s」已清空"
+
+#: database-empty.php:51
+#, php-format
+#@ wp-dbmanager
+msgid "Table(s) '%s' Dropped"
+msgstr "数据表「%s」已删除"
+
+#: database-empty.php:66
+#: wp-dbmanager.php:50
+#@ wp-dbmanager
+msgid "Empty/Drop Tables"
+msgstr "清空／删除"
+
+#: database-empty.php:71
+#: database-manager.php:66
+#: database-optimize.php:59
+#: database-repair.php:60
+#@ wp-dbmanager
+msgid "Tables"
+msgstr "数据表"
+
+#: database-empty.php:72
+#: database-empty.php:86
+#@ wp-dbmanager
+msgid "Empty"
+msgstr "清空"
+
+#: database-empty.php:72
+#@ wp-dbmanager
+msgid "1"
+msgstr "①"
+
+#: database-empty.php:73
+#: database-empty.php:87
+#@ wp-dbmanager
+msgid "Drop"
+msgstr "删除"
+
+#: database-empty.php:73
+#@ wp-dbmanager
+msgid "2"
+msgstr "②"
+
+#: database-empty.php:92
+#@ wp-dbmanager
+msgid "1. EMPTYING a table means all the rows in the table will be deleted. This action is not REVERSIBLE."
+msgstr "1. 清空数据表：删除所有数据表内的内容，此操作 <strong>不可撤销</strong>"
+
+#: database-empty.php:94
+#@ wp-dbmanager
+msgid "2. DROPPING a table means deleting the table. This action is not REVERSIBLE."
+msgstr "2. 删除数据表：删除整个数据表，包括内容，此操作 <strong>不可撤销</strong>"
+
+#: database-manage.php:31
+#: database-manage.php:165
+#@ wp-dbmanager
+msgid "Restore"
+msgstr "还原"
+
+#: database-manage.php:53
+#, php-format
+#@ wp-dbmanager
+msgid "Database On '%s' Failed To Restore"
+msgstr "数据库「%s」还原失败"
+
+#: database-manage.php:55
+#, php-format
+#@ wp-dbmanager
+msgid "Database On '%s' Restored Successfully"
+msgstr "数据库「%s」还原成功"
+
+#: database-manage.php:58
+#: database-manage.php:71
+#: database-manage.php:76
+#: database-manage.php:91
+#@ wp-dbmanager
+msgid "No Backup Database File Selected"
+msgstr "未选择数据库备份文件"
+
+#: database-manage.php:61
+#: database-manage.php:160
+#@ wp-dbmanager
+msgid "E-Mail"
+msgstr "发送"
+
+#: database-manage.php:66
+#, php-format
+#@ wp-dbmanager
+msgid "Database Backup File For '%s' Successfully E-Mailed To '%s'"
+msgstr "数据库「%s」备份成功发送到「%s」"
+
+#: database-manage.php:68
+#, php-format
+#@ wp-dbmanager
+msgid "Unable To E-Mail Database Backup File For '%s' To '%s'"
+msgstr "无法发送数据库备份文件「%s」到「%s」"
+
+#: database-manage.php:74
+#: database-manage.php:164
+#: wp-dbmanager.php:441
+#@ wp-dbmanager
+msgid "Download"
+msgstr "下载"
+
+#: database-manage.php:79
+#: database-manage.php:170
+#@ wp-dbmanager
+msgid "Delete"
+msgstr "删除"
+
+#: database-manage.php:83
+#, php-format
+#@ wp-dbmanager
+msgid "Unable To Delete Database Backup File On '%s'"
+msgstr "无法删除数据库备份文件「%s」"
+
+#: database-manage.php:85
+#, php-format
+#@ wp-dbmanager
+msgid "Database Backup File On '%s' Deleted Successfully"
+msgstr "数据库备份文件「%s」删除成功"
+
+#: database-manage.php:88
+#, php-format
+#@ wp-dbmanager
+msgid "Invalid Database Backup File On '%s'"
+msgstr "无效的数据库备份文件「%s」"
+
+#: database-manage.php:102
+#@ wp-dbmanager
+msgid "Manage Backup Database"
+msgstr "管理数据库备份"
+
+#: database-manage.php:103
+#@ wp-dbmanager
+msgid "Choose A Backup Date To E-Mail, Restore, Download Or Delete"
+msgstr "您可以选择一个数据库来执行邮寄、还原、下载或删除操作"
+
+#: database-manage.php:107
+#: database-manager.php:65
+#@ wp-dbmanager
+msgid "No."
+msgstr "序号"
+
+#: database-manage.php:108
+#@ wp-dbmanager
+msgid "Database File"
+msgstr "数据库文件"
+
+#: database-manage.php:109
+#@ wp-dbmanager
+msgid "Date/Time"
+msgstr "日期／时间"
+
+#: database-manage.php:110
+#@ wp-dbmanager
+msgid "Size"
+msgstr "大小"
+
+#: database-manage.php:111
+#@ wp-dbmanager
+msgid "Select"
+msgstr "选定"
+
+#: database-manage.php:146
+#: database-manage.php:149
+#@ wp-dbmanager
+msgid "There Are No Database Backup Files Available."
+msgstr "无可用数据库备份。"
+
+#: database-manage.php:160
+#@ wp-dbmanager
+msgid "E-mail database backup file to:"
+msgstr "邮寄数据库备份至："
+
+#: database-manager.php:25
+#: wp-dbmanager.php:43
+#@ wp-dbmanager
+msgid "Database"
+msgstr "数据库"
+
+#: database-manager.php:26
+#@ wp-dbmanager
+msgid "Database Information"
+msgstr "数据库信息"
+
+#: database-manager.php:31
+#@ wp-dbmanager
+msgid "Setting"
+msgstr "设置"
+
+#: database-manager.php:36
+#@ wp-dbmanager
+msgid "Database Host"
+msgstr "数据库主机"
+
+#: database-manager.php:40
+#@ wp-dbmanager
+msgid "Database Name"
+msgstr "数据库名称"
+
+#: database-manager.php:44
+#@ wp-dbmanager
+msgid "Database User"
+msgstr "数据库用户名"
+
+#: database-manager.php:48
+#@ wp-dbmanager
+msgid "Database Type"
+msgstr "数据库类型"
+
+#: database-manager.php:52
+#@ wp-dbmanager
+msgid "Database Version"
+msgstr "数据库版本"
+
+#: database-manager.php:60
+#@ wp-dbmanager
+msgid "Tables Information"
+msgstr "数据表信息"
+
+#: database-manager.php:67
+#@ wp-dbmanager
+msgid "Records"
+msgstr "记录"
+
+#: database-manager.php:68
+#@ wp-dbmanager
+msgid "Data Usage"
+msgstr "数据大小"
+
+#: database-manager.php:69
+#@ wp-dbmanager
+msgid "Index Usage"
+msgstr "索引大小"
+
+#: database-manager.php:70
+#@ wp-dbmanager
+msgid "Overhead"
+msgstr "多余"
+
+#: database-manager.php:103
+#@ wp-dbmanager
+msgid "Total:"
+msgstr "合计："
+
+#: database-manager.php:111
+#@ wp-dbmanager
+msgid "Could Not Show Table Status Due To Your MYSQL Version Is Lower Than 3.23."
+msgstr "由于您的 MYSQL 版本低于 3.23，无法显示数据表状态。"
+
+#  此字串不可翻译，翻译后无法显示执行后提示信息
+#: database-optimize.php:19
+#: database-optimize.php:80
+#@ wp-dbmanager
+msgid "Optimize"
+msgstr "优化"
+
+#: database-optimize.php:29
+#: database-repair.php:30
+#@ wp-dbmanager
+msgid "No Tables Selected"
+msgstr "未选择数据表"
+
+#: database-optimize.php:36
+#, php-format
+#@ wp-dbmanager
+msgid "Table(s) '%s' NOT Optimized"
+msgstr "数据表「%s」未被优化"
+
+#: database-optimize.php:38
+#, php-format
+#@ wp-dbmanager
+msgid "Table(s) '%s' Optimized"
+msgstr "数据表「%s」已优化"
+
+#: database-optimize.php:54
+#@ wp-dbmanager
+msgid "Optimize Database"
+msgstr "优化数据库"
+
+#: database-optimize.php:60
+#: database-repair.php:61
+#@ wp-dbmanager
+msgid "Options"
+msgstr "选项"
+
+#: database-optimize.php:77
+#@ wp-dbmanager
+msgid "Database should be optimize once every month."
+msgstr "数据库最好每个月都进行一次优化。"
+
+#  此字串不可翻译，翻译后无法显示执行后提示信息
+#: database-repair.php:20
+#: database-repair.php:78
+#@ wp-dbmanager
+msgid "Repair"
+msgstr "修复"
+
+#: database-repair.php:37
+#, php-format
+#@ wp-dbmanager
+msgid "Table(s) '%s' NOT Repaired"
+msgstr "数据表「%s」未被修复"
+
+#: database-repair.php:39
+#, php-format
+#@ wp-dbmanager
+msgid "Table(s) '%s' Repaired"
+msgstr "数据表「%s」已修复"
+
+#: database-repair.php:55
+#@ wp-dbmanager
+msgid "Repair Database"
+msgstr "修复数据库"
+
+#: database-run.php:24
+#: database-run.php:82
+#@ wp-dbmanager
+msgid "Run"
+msgstr "执行"
+
+#: database-run.php:55
+#@ wp-dbmanager
+msgid "Query(s) Executed Successfully"
+msgstr "指令执行成功"
+
+#: database-run.php:57
+#: database-run.php:60
+#@ wp-dbmanager
+msgid "Empty Query"
+msgstr "指令为空"
+
+#: database-run.php:71
+#: wp-dbmanager.php:51
+#@ wp-dbmanager
+msgid "Run SQL Query"
+msgstr "运行 SQL 指令"
+
+#: database-run.php:74
+#@ wp-dbmanager
+msgid "Seperate Multiple Queries With A New Line"
+msgstr "使用新的一行执行多条语句"
+
+#: database-run.php:75
+#@ wp-dbmanager
+msgid "Use Only INSERT, UPDATE, REPLACE, DELETE, CREATE and ALTER statements."
+msgstr "仅限使用 INSERT、UPDATE、REPLACE、DELETE、CREATE 以及 ALTER 指令。"
+
+#: database-run.php:86
+#@ wp-dbmanager
+msgid "1. CREATE statement will return an error, which is perfectly normal due to the database class. To confirm that your table has been created check the Manage Database page."
+msgstr "1. CREATE 指令有可能返回一个错误信息，通常是由数据库等级引起的. 请检数据库首页查看是否被成功创建。"
+
+#: database-run.php:87
+#@ wp-dbmanager
+msgid "2. UPDATE statement may return an error sometimes due to the newly updated value being the same as the previous value."
+msgstr "2. UPDATE 指令有可能返回一个错误信息，通常是由于更新值与之前的值相同所致。"
+
+#: database-run.php:88
+#@ wp-dbmanager
+msgid "3. ALTER statement will return an error because there is no value returned."
+msgstr "3. ALTER 指令由于没有相对应的值返回通常也会返回一个错误信息。"
+
+#: wp-dbmanager.php:46
+#@ wp-dbmanager
+msgid "Backup DB"
+msgstr "备份"
+
+#: wp-dbmanager.php:47
+#@ wp-dbmanager
+msgid "Manage Backup DB"
+msgstr "管理"
+
+#: wp-dbmanager.php:48
+#@ wp-dbmanager
+msgid "Optimize DB"
+msgstr "优化"
+
+#: wp-dbmanager.php:49
+#@ wp-dbmanager
+msgid "Repair DB"
+msgstr "修复"
+
+#: wp-dbmanager.php:52
+#@ wp-dbmanager
+msgid "DB Options"
+msgstr "选项"
+
+#: wp-dbmanager.php:149
+#@ wp-dbmanager
+msgid "WP-DBManager Backup Schedule"
+msgstr "WP-DBManager 定时备份"
+
+#: wp-dbmanager.php:150
+#@ wp-dbmanager
+msgid "WP-DBManager Optimize Schedule"
+msgstr "WP-DBManager 定时优化"
+
+#: wp-dbmanager.php:151
+#, fuzzy
+#@ wp-dbmanager
+msgid "WP-DBManager Repair Schedule"
+msgstr "WP-DBManager 定时优化"
+
+#: wp-dbmanager.php:169
+#, fuzzy
+#@ wp-postratings
+msgid "Your backup folder is NOT writable"
+msgstr "备份文件夹可写入"
+
+#: wp-dbmanager.php:170
+#, fuzzy, php-format, php-format
+#@ wp-dbmanager
+msgid "To correct this issue, make the folder <strong>%s</strong> writable."
+msgstr "数据库备份文件夹：<strong>'%s'</strong>。"
+
+#: wp-dbmanager.php:173
+#@ wp-dbmanager
+msgid "Your backup folder MIGHT be visible to the public"
+msgstr "您的数据库备份文件夹可能任何人都能访问"
+
+#: wp-dbmanager.php:174
+#, fuzzy, php-format, php-format
+#@ wp-dbmanager
+msgid "To correct this issue, move the file from <strong>%s</strong> to <strong>%s</strong>"
+msgstr "解决此问题，请移动从 <strong>%s</strong> 中移动 <strong>.htaccess</strong> 文件到 <strong>%s</strong>"
+
+#: wp-dbmanager.php:256
+#@ wp-dbmanager
+msgid "Website Name:"
+msgstr "网站名称："
+
+#: wp-dbmanager.php:257
+#@ wp-dbmanager
+msgid "Website URL:"
+msgstr "网站链接："
+
+#: wp-dbmanager.php:258
+#@ wp-dbmanager
+msgid "Backup File Name:"
+msgstr "备份名称："
+
+#: wp-dbmanager.php:259
+#@ wp-dbmanager
+msgid "Backup File Date:"
+msgstr "备份日期："
+
+#: wp-dbmanager.php:260
+#@ wp-dbmanager
+msgid "Backup File Size:"
+msgstr "备份大小："
+
+#: wp-dbmanager.php:261
+#@ wp-dbmanager
+msgid "With Regards,"
+msgstr "谨此致意"
+
+#: wp-dbmanager.php:262
+#: wp-dbmanager.php:355
+#@ wp-dbmanager
+msgid "Administrator"
+msgstr "管理员"
+
+#: wp-dbmanager.php:280
+#@ wp-dbmanager
+msgid "GiB"
+msgstr "GB"
+
+#: wp-dbmanager.php:282
+#@ wp-dbmanager
+msgid "MiB"
+msgstr "MB"
+
+#: wp-dbmanager.php:284
+#@ wp-dbmanager
+msgid "KiB"
+msgstr "KB"
+
+#: wp-dbmanager.php:286
+#@ wp-dbmanager
+msgid "bytes"
+msgstr "字节"
+
+#: wp-dbmanager.php:358
+#, fuzzy, php-format
+#@ wp-dbmanager
+msgid "%SITE_NAME% Database Backup File For %POST_DATE% @ %POST_TIME%"
+msgstr "%SITE_NAME% 数据库备份文件 %POST_DATE% @ %POST_TIME%"
+
+#: wp-dbmanager.php:491
+#@ wp-dbmanager
+msgid "Database Options Updated"
+msgstr "数据库选项已更新"
+
+#: wp-dbmanager.php:494
+#@ wp-dbmanager
+msgid "No Database Option Updated"
+msgstr "数据库选项已更新（无改动）"
+
+#: wp-dbmanager.php:551
+#@ wp-dbmanager
+msgid "Database Options"
+msgstr "数据库选项"
+
+#: wp-dbmanager.php:552
+#@ wp-dbmanager
+msgid "Paths"
+msgstr "路径"
+
+#: wp-dbmanager.php:555
+#@ wp-dbmanager
+msgid "Path To mysqldump:"
+msgstr "mysqldump 路径："
+
+#: wp-dbmanager.php:557
+#: wp-dbmanager.php:564
+#@ wp-dbmanager
+msgid "Auto Detect"
+msgstr "自动检测"
+
+#: wp-dbmanager.php:558
+#@ wp-dbmanager
+msgid "The absolute path to mysqldump without trailing slash. If unsure, please email your server administrator about this."
+msgstr "mysqldump 的绝对路径，不要以 / 结尾，如果不确定，请联系您的服务器管理员。"
+
+#: wp-dbmanager.php:562
+#@ wp-dbmanager
+msgid "Path To mysql:"
+msgstr "mysql 路径："
+
+#: wp-dbmanager.php:565
+#@ wp-dbmanager
+msgid "The absolute path to mysql without trailing slash. If unsure, please email your server administrator about this."
+msgstr "mysql 的绝对路径，不要以 / 结尾，如果不确定，请联系您的服务器管理员。"
+
+#: wp-dbmanager.php:569
+#@ wp-dbmanager
+msgid "Path To Backup:"
+msgstr "备份路径："
+
+#: wp-dbmanager.php:572
+#@ wp-dbmanager
+msgid "The absolute path to your database backup folder without trailing slash. Make sure the folder is writable."
+msgstr "数据库备份文件夹的绝对路径，不要以 / 结尾，并确定该文件夹可写入。"
+
+#: wp-dbmanager.php:576
+#@ wp-dbmanager
+msgid "Maximum Backup Files:"
+msgstr "最大备份文件数："
+
+#: wp-dbmanager.php:579
+#@ wp-dbmanager
+msgid "The maximum number of database backup files that is allowed in the backup folder as stated above. The oldest database backup file is always deleted in order to maintain this value. This is to prevent the backup folder from getting too large."
+msgstr "限制备份文件夹中数据库备份文件的个数，当有新的备份时较旧的将会被删除，此设置可以防止备份文件夹过大。"
+
+#: wp-dbmanager.php:584
+#: wp-dbmanager.php:602
+#@ wp-dbmanager
+msgid "Note"
+msgstr "注意"
+
+#: wp-dbmanager.php:588
+#@ wp-dbmanager
+msgid "Windows Server"
+msgstr "Windows 服务器"
+
+#: wp-dbmanager.php:589
+#@ wp-dbmanager
+msgid "For mysqldump path, you can try '<strong>mysqldump.exe</strong>'."
+msgstr "想获得 mysqldump 路径，可以尝试「<strong>mysqldump.exe</strong>」。"
+
+#: wp-dbmanager.php:590
+#@ wp-dbmanager
+msgid "For mysql path, you can try '<strong>mysql.exe</strong>'."
+msgstr "想获得 mysql 路径，可以尝试「<strong>mysql.exe</strong>」。"
+
+#: wp-dbmanager.php:595
+#@ wp-dbmanager
+msgid "Linux Server"
+msgstr "Linux 服务器"
+
+#: wp-dbmanager.php:596
+#@ wp-dbmanager
+msgid "For mysqldump path, normally is just '<strong>mysqldump</strong>'."
+msgstr "想获得 mysqldump 路径，可以尝试「<strong>mysqldump</strong>」。"
+
+#: wp-dbmanager.php:597
+#@ wp-dbmanager
+msgid "For mysql path, normally is just '<strong>mysql</strong>'."
+msgstr "想获得 mysql 路径，可以尝试「<strong>mysql</strong>」。"
+
+#: wp-dbmanager.php:603
+#@ wp-dbmanager
+msgid "The 'Auto Detect' function does not work for some servers. If it does not work for you, please contact your server administrator for the MYSQL and MYSQL DUMP paths."
+msgstr "「自动检测」在某些服务器上并不管用，如果无法使用请联系服务器管理员来询问  MYSQL 与 MYSQL DUMP 的路径。"
+
+#: wp-dbmanager.php:608
+#@ wp-dbmanager
+msgid "Automatic Scheduling"
+msgstr "自动备份（计划备份）"
+
+#: wp-dbmanager.php:611
+#@ wp-dbmanager
+msgid "Automatic Backing Up Of DB:"
+msgstr "自动备份数据库："
+
+#: wp-dbmanager.php:614
+#@ wp-dbmanager
+msgid "Next backup date: "
+msgstr "下次备份时间："
+
+#: wp-dbmanager.php:618
+#: wp-dbmanager.php:648
+#: wp-dbmanager.php:673
+#@ wp-dbmanager
+msgid "N/A"
+msgstr "不可用"
+
+#: wp-dbmanager.php:622
+#: wp-dbmanager.php:652
+#: wp-dbmanager.php:677
+#@ wp-dbmanager
+msgid "Every"
+msgstr "每"
+
+#: wp-dbmanager.php:624
+#: wp-dbmanager.php:654
+#: wp-dbmanager.php:679
+#@ wp-dbmanager
+msgid "Disable"
+msgstr "禁用"
+
+#: wp-dbmanager.php:625
+#: wp-dbmanager.php:655
+#: wp-dbmanager.php:680
+#@ wp-dbmanager
+msgid "Minutes(s)"
+msgstr "分钟"
+
+#: wp-dbmanager.php:626
+#: wp-dbmanager.php:656
+#: wp-dbmanager.php:681
+#@ wp-dbmanager
+msgid "Hour(s)"
+msgstr "小时"
+
+#: wp-dbmanager.php:627
+#: wp-dbmanager.php:657
+#: wp-dbmanager.php:682
+#@ wp-dbmanager
+msgid "Day(s)"
+msgstr "天"
+
+#: wp-dbmanager.php:628
+#: wp-dbmanager.php:658
+#: wp-dbmanager.php:683
+#@ wp-dbmanager
+msgid "Week(s)"
+msgstr "周"
+
+#: wp-dbmanager.php:629
+#: wp-dbmanager.php:659
+#: wp-dbmanager.php:684
+#@ wp-dbmanager
+msgid "Month(s)"
+msgstr "月"
+
+#: wp-dbmanager.php:631
+#@ wp-dbmanager
+msgid "Gzip"
+msgstr "Gzip 压缩"
+
+#: wp-dbmanager.php:637
+#@ wp-dbmanager
+msgid "WP-DBManager can automatically backup your database after a certain period."
+msgstr "WP-DBManager 可以在指定时间内自动备份您的数据库"
+
+#: wp-dbmanager.php:641
+#@ wp-dbmanager
+msgid "Automatic Optimizing Of DB:"
+msgstr "自动优化数据库："
+
+#: wp-dbmanager.php:644
+#@ wp-dbmanager
+msgid "Next optimize date: "
+msgstr "下次优化时间："
+
+#: wp-dbmanager.php:662
+#@ wp-dbmanager
+msgid "WP-DBManager can automatically optimize your database after a certain period."
+msgstr "WP-DBManager 可以在指定时间内自动优化您的数据库"
+
+#: wp-dbmanager.php:666
+#, fuzzy
+#@ wp-dbmanager
+msgid "Automatic Repairing Of DB:"
+msgstr "自动优化数据库："
+
+#: wp-dbmanager.php:669
+#, fuzzy
+#@ wp-dbmanager
+msgid "Next repair date: "
+msgstr "下次优化时间："
+
+#: wp-dbmanager.php:687
+#, fuzzy
+#@ wp-dbmanager
+msgid "WP-DBManager can automatically repair your database after a certain period."
+msgstr "WP-DBManager 可以在指定时间内自动优化您的数据库"
+
+#: wp-dbmanager.php:692
+#, fuzzy
+#@ wp-dbmanager
+msgid "Backup Email Options"
+msgstr "选项"
+
+#: wp-dbmanager.php:695
+#@ wp-dbmanager
+msgid "To"
+msgstr "收件人"
+
+#: wp-dbmanager.php:698
+#@ wp-dbmanager
+msgid "To E-mail"
+msgstr "收件人邮箱"
+
+#: wp-dbmanager.php:700
+#@ wp-dbmanager
+msgid "(Leave blank to disable this feature)"
+msgstr "（留空禁用此功能）"
+
+#: wp-dbmanager.php:704
+#@ wp-dbmanager
+msgid "From"
+msgstr "发件人"
+
+#: wp-dbmanager.php:707
+#@ wp-dbmanager
+msgid "From Name"
+msgstr "发件人姓名"
+
+#: wp-dbmanager.php:708
+#@ wp-dbmanager
+msgid "From E-mail"
+msgstr "发件人邮箱"
+
+#: wp-dbmanager.php:710
+#: wp-dbmanager.php:719
+#, fuzzy
+#@ wp-dbmanager
+msgid "(Leave blank to use the default)"
+msgstr "（留空禁用此功能）"
+
+#: wp-dbmanager.php:714
+#@ wp-dbmanager
+msgid "Subject:"
+msgstr "主题："
+
+#: wp-dbmanager.php:717
+#@ wp-dbmanager
+msgid "Subject"
+msgstr "邮件主题"
+
+#: wp-dbmanager.php:724
+#@ wp-dbmanager
+msgid "Miscellaneous Options"
+msgstr "其他选项"
+
+#: wp-dbmanager.php:727
+#@ wp-dbmanager
+msgid "Hide Admin Notices"
+msgstr "隐藏管理员通知"
+
+#: wp-dbmanager.php:738
+#@ wp-dbmanager
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: database-empty.php:98
+#@ wp-dbmanager
+msgid ""
+"You Are About To Empty Or Drop The Selected Databases.\n"
+"This Action Is Not Reversible.\n"
+"\n"
+" Choose [Cancel] to stop, [Ok] to delete."
+msgstr ""
+"您正在尝试清空或删除选中的数据库，此操作无法撤销。\n"
+"\n"
+"选择「取消」终止当前操作，选择「确认」继续。"
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: database-manage.php:153
+#, php-format
+#@ wp-dbmanager
+msgid "%s Backup File"
+msgid_plural "%s Backup Files"
+msgstr[0] "%s 个备份文件"
+msgstr[1] "%s 个备份文件"
+
+#: database-manage.php:165
+#@ wp-dbmanager
+msgid ""
+"You Are About To Restore A Database.\n"
+"This Action Is Not Reversible.\n"
+"Any Data Inserted After The Backup Date Will Be Gone.\n"
+"\n"
+" Choose [Cancel] to stop, [Ok] to restore."
+msgstr ""
+"您正在尝试恢复数据库，此操作不可逆，任何在备份之后创建的数据都将丢失。\n"
+"\n"
+"选择「取消」终止当前操作，选择「确认」进行恢复。"
+
+#: database-manage.php:170
+#@ wp-dbmanager
+msgid ""
+"You Are About To Delete The Selected Database Backup Files.\n"
+"This Action Is Not Reversible.\n"
+"\n"
+" Choose [Cancel] to stop, [Ok] to delete."
+msgstr ""
+"您正在尝试删除当前数据库备份文件，此操作不可逆。\n"
+"\n"
+"选择「取消」终止当前操作，选择「确认」删除。"
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: database-manager.php:104
+#, php-format
+#@ wp-dbmanager
+msgid "%s Table"
+msgid_plural "%s Tables"
+msgstr[0] "%s 个表"
+msgstr[1] "%s 个表"
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: database-manager.php:105
+#, php-format
+#@ wp-dbmanager
+msgid "%s Record"
+msgid_plural "%s Records"
+msgstr[0] "%s 条记录"
+msgstr[1] "%s 条记录"
+
